@@ -4,6 +4,6 @@ on: push
 
 jobs:
   demo:
-    runs-on: ubuntu-latest
+    runs-on: label-1
     steps:
       - run: echo "Success!"
