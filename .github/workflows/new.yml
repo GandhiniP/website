@@ -4,6 +4,6 @@ on: push
 
 jobs:
   demo:
-    runs-on: label-1
+    runs-on: ip-172-31-15-203
     steps:
       - run: echo "Success!"
